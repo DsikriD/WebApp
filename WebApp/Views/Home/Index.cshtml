@@ -1,0 +1,9 @@
+﻿@model Models.ViewModel.CategoryVM
+
+
+@foreach (var obj in Model.CategoryList)
+{
+    <div class="border border-1 border-danger">
+        @obj.Id   @obj.Name
+    </div>
+}
